@@ -4,7 +4,7 @@ document.getElementById('wa-form').addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
     const meds = document.getElementById('meds').value;
-    const pharmacyNum = "923001234567"; // CHANGE THIS
+    const pharmacyNum = "923448893367"; // CHANGE THIS
 
     const text = `*ALI MEDICOS - NEW ORDER*%0A` +
                  `----------------------------%0A` +
