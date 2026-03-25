@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ali Medicos | Premium Healthcare Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="mobile-actions">
+        <a href="tel:+923001234567" class="m-btn call"><i class="fas fa-phone"></i> Call</a>
+        <a href="https://wa.me/923448893367" class="m-btn whatsapp"><i class="fab fa-whatsapp"></i> Order</a>
+    </div>
+
+    <header class="header">
+        <nav class="container nav-flex">
+            <div class="logo">ALI<span>MEDICOS</span></div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:+923001234567" class="btn-hide-mobile nav-call"><i class="fas fa-phone-volume"></i> 0344 8893367</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="tag">Licensed Pharmacy</span>
+                    <h1>Your Health, <br>Delivered <span>Fast.</span></h1>
+                    <p>Genuine medicines and healthcare essentials delivered to your doorstep. Upload your prescription and let our experts handle the rest.</p>
+                    <div class="hero-cta">
+                        <a href="#order" class="btn-main">Start Your Order</a>
+                        <a href="#contact" class="btn-link">Find Our Store <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="portal">
+            <div class="container">
+                <div class="card-glass">
+                    <div class="portal-header">
+                        <h2>Order via WhatsApp</h2>
+                        <p>Fill in your details to start a chat with our pharmacist.</p>
+                    </div>
+                    <form id="wa-form" class="modern-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label>Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="phone" required placeholder=" ">
+                                <label>Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="meds" required placeholder=" " rows="4"></textarea>
+                            <label>List Medicines (e.g. Panadol, Insulin...)</label>
+                        </div>
+                        <button type="submit" class="btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Confirm & Send Order
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container grid-contact">
+                <div class="info-pane">
+                    <h2>Visit Our Store</h2>
+                    <div class="contact-item">
+                        <div class="c-icon"><i class="fas fa-location-dot"></i></div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Hafiz Aslam Road, Shaheed Chowk, Kotli, AJK</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="c-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Timings</h4>
+                            <p>Open 24/7 (Emergency Window After 11 PM)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-pane">
+                    <h3>Email Inquiry</h3>
+                    <form action="https://formspree.io/f/xblddqok" method="POST" class="modern-form">
+                        <div class="input-group">
+                            <input type="email" name="email" required placeholder=" ">
+                            <label>Email Address</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" required placeholder=" " rows="3"></textarea>
+                            <label>Message</label>
+                        </div>
+                        <button type="submit" class="btn-outline">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="container footer-grid">
+        <div class="footer-about">
+            <h3>ALI<span>MEDICOS</span></h3>
+            <p>Your trusted neighborhood pharmacy providing 100% authentic medicines and healthcare essentials since [Year]. We are committed to your family's health and wellness.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#order">Order Medicine</a></li>
+                <li><a href="#contact">Our Location</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Get In Touch</h4>
+            <p><i class="fas fa-phone"></i> +92 344 8893367</p>
+            <p><i class="fas fa-envelope"></i> orders@alimedicos.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Hafiz Aslam Road, Shaheed Chowk, Kotli, AJK</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            &copy; 2026 Ali Medicos Pharmacy. Designed for Excellence.
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
